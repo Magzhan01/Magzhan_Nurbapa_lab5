@@ -60,7 +60,4 @@ Route::get('/fullname_default/{firstname?}/{lastname?}', function($firstname = "
 
 
 //Route::get('/studentinfo/{id}', 'StudentController@show');
-Route::get('/studentinfo/{id}', 'StudentController2@show');
-Route::get('/sname/{name?}','StudentController2@SName');
-Route::get('/datef/{date_birth}','StudentController2@sdate_birth');
-Route::get('/age/{age}','StudentController2@sAge');
+Route::get('/studentinfo', 'StudentController2@show');
