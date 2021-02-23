@@ -16,8 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+//Бұл жерде мен 'print_name'-нен келген сөзді шығарамын!!
 Route::get('/fullname', function () {
-    return view('print_name');
+    return view('print_my_name');
 });
 Route::get('/redirect', function () {
     return redirect("/fullname") ;
