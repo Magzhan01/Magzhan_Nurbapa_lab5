@@ -1,4 +1,5 @@
 <?php
-echo 'Nurbapa Magzhan';
+$str = "Nurbapa Magzhan";
+echo $str;
 // Бұл жерде ehco істедім!!!!
 ?>
