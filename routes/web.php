@@ -55,10 +55,10 @@ Route::get('/fullname_default/{firstname?}/{lastname?}', function($firstname = "
 // Route::get('/forout/{id}', 'UserController@out');
 // Route::get('/disname/{name}', 'UserController@displayname');
 //Route::get('/details/{id}/{name}/{password}', 'UserController@display');
-
-
-
-
-
 //Route::get('/studentinfo/{id}', 'StudentController@show');
 // Route::get('/studentinfo', 'StudentController2@show');
+
+
+Route::get('/stuname','StudentController@get_students_name');
+Route::get('/stubirth','StudentController@get_date_birth');
+Route::get('/stuage','StudentController@get_age');
